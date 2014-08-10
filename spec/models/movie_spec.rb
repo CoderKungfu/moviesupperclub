@@ -15,7 +15,10 @@ RSpec.describe Movie, :type => :model do
 
   context 'before_save' do
     describe '#fix_rating' do
-      
+      it 'fixes typo in rating' do
+        movie = FactoryGirl.create(:movie, rating: 'pg-13' )
+        expect(movie.reload.rating).to eq('PG13')
+      end
     end
   end
 

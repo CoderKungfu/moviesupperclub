@@ -1,0 +1,17 @@
+KNOWN_RATING_TYPOS = {
+  'G' => :G,
+
+  'PG13' => :PG13,
+  'PG-13' => :PG13,
+  'PG13 VIOLENCE' => :PG13,
+  'PG SOME VIOLENCE' => :PG13,
+  'PG13 VIOLENCE AND SOME COARSE LANGUAGE' => :PG13,
+  'PG13 SOME SEXUAL REFERENCES' => :PG13,
+
+  'NC16' => :NC16,
+  'M18' => :M18,
+
+  'R21' => :R21,
+  'R21 SEXUAL SCENES' => :R21
+}
+
