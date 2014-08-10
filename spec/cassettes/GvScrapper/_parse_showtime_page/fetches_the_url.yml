@@ -1,0 +1,128 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.gv.com.sg/buyTickets2.jsp?date=03-08-2014&loc=03
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Length:
+      - '1088'
+      Content-Type:
+      - text/html;charset=ISO-8859-1
+      Server:
+      - Apache-Coyote/1.1
+      Last-Modified:
+      - Sun, 03 Aug 2014 07:10:03 GMT
+      Connection:
+      - keep-alive
+      Date:
+      - Sun, 03 Aug 2014 07:41:05 GMT
+    body:
+      encoding: UTF-8
+      string: "<table width=\"100%\" border=\"0\" cellspacing=\"1\" cellpadding=\"4\"><tr><td
+        valign=\"top\" width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_3219.jsp\"
+        class=\"showtimes\">Ju On 3: Beginning Of The End</a><br /><span class=\"small\">(Sub:
+        English, Chinese)</span></td><td valign=\"top\" width=\"100\" valign=\"top\"
+        bgcolor=\"#332D1B\" class=\"rating\">NC16 HORROR</td><td valign=\"top\" bgcolor=\"#332D1B\"><strong><a
+        href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=3219&hFilmTitle=Ju+On+3%3A+Beginning+Of+The+End&hFilmSubtitle=English,
+        Chinese&hCensorRatingCode=NC16 HORROR&hShowTimeStr=9:10PM&hShowTimeInt=2110&hShowDate=03-08-2014\"
+        class=\"showtimes\">9:10PM</a>&nbsp;&nbsp; </strong></td></tr><tr><td valign=\"top\"
+        width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_5126.jsp\"
+        class=\"showtimes\">Transformers: Age Of Extinction</a><br /><span class=\"small\">(Sub:
+        Chinese)</span></td><td valign=\"top\" width=\"100\" valign=\"top\" bgcolor=\"#332D1B\"
+        class=\"rating\">PG13 ACTION VIOLENCE AND BRIEF COARSE LANGUAGE</td><td valign=\"top\"
+        bgcolor=\"#332D1B\"><strong><a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5126&hFilmTitle=Transformers%3A+Age+Of+Extinction&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        ACTION VIOLENCE AND BRIEF COARSE LANGUAGE&hShowTimeStr=3:30PM&hShowTimeInt=1530&hShowDate=03-08-2014\"
+        class=\"showtimes\">3:30PM</a>&nbsp;&nbsp; </strong></td></tr><tr><td valign=\"top\"
+        width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_5153.jsp\"
+        class=\"showtimes\">Hercules*</a><br /><span class=\"small\">(Sub: Chinese)</span></td><td
+        valign=\"top\" width=\"100\" valign=\"top\" bgcolor=\"#332D1B\" class=\"rating\">PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE</td><td valign=\"top\" bgcolor=\"#332D1B\"><strong><a
+        href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5153&hFilmTitle=Hercules*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE&hShowTimeStr=4:50PM&hShowTimeInt=1650&hShowDate=03-08-2014\"
+        class=\"showtimes\">4:50PM</a>&nbsp;&nbsp; <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5153&hFilmTitle=Hercules*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE&hShowTimeStr=7:10PM&hShowTimeInt=1910&hShowDate=03-08-2014\"
+        class=\"showtimes\">7:10PM</a>&nbsp;&nbsp; <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5153&hFilmTitle=Hercules*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE&hShowTimeStr=9:30PM&hShowTimeInt=2130&hShowDate=03-08-2014\"
+        class=\"showtimes\">9:30PM</a>&nbsp;&nbsp; </strong></td></tr><tr><td valign=\"top\"
+        width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_5154.jsp\"
+        class=\"showtimes\">Marvel`S Guardians Of The Galaxy*</a><br /><span class=\"small\">(Sub:
+        Chinese)</span></td><td valign=\"top\" width=\"100\" valign=\"top\" bgcolor=\"#332D1B\"
+        class=\"rating\">PG13 VIOLENCE</td><td valign=\"top\" bgcolor=\"#332D1B\"><strong><a
+        href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5154&hFilmTitle=Marvel%60S+Guardians+Of+The+Galaxy*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        VIOLENCE&hShowTimeStr=3:20PM&hShowTimeInt=1520&hShowDate=03-08-2014\" class=\"showtimes\">3:20PM</a>&nbsp;&nbsp;
+        <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5154&hFilmTitle=Marvel%60S+Guardians+Of+The+Galaxy*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        VIOLENCE&hShowTimeStr=4:10PM&hShowTimeInt=1610&hShowDate=03-08-2014\" class=\"showtimes\">4:10PM</a>&nbsp;&nbsp;
+        <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5154&hFilmTitle=Marvel%60S+Guardians+Of+The+Galaxy*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        VIOLENCE&hShowTimeStr=5:10PM&hShowTimeInt=1710&hShowDate=03-08-2014\" class=\"showtimes\">5:10PM</a>&nbsp;&nbsp;
+        <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5154&hFilmTitle=Marvel%60S+Guardians+Of+The+Galaxy*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        VIOLENCE&hShowTimeStr=6:50PM&hShowTimeInt=1850&hShowDate=03-08-2014\" class=\"showtimes\">6:50PM</a>&nbsp;&nbsp;
+        <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5154&hFilmTitle=Marvel%60S+Guardians+Of+The+Galaxy*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        VIOLENCE&hShowTimeStr=7:50PM&hShowTimeInt=1950&hShowDate=03-08-2014\" class=\"showtimes\">7:50PM</a>&nbsp;&nbsp;
+        <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5154&hFilmTitle=Marvel%60S+Guardians+Of+The+Galaxy*&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        VIOLENCE&hShowTimeStr=9:30PM&hShowTimeInt=2130&hShowDate=03-08-2014\" class=\"showtimes\">9:30PM</a>&nbsp;&nbsp;
+        </strong></td></tr><tr><td valign=\"top\" width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a
+        href=\"/moviedetails/gv_moviedetails_5127.jsp\" class=\"showtimes\">Dawn Of
+        The Planet Of The Apes</a><br /><span class=\"small\">(Sub: Chinese)</span></td><td
+        valign=\"top\" width=\"100\" valign=\"top\" bgcolor=\"#332D1B\" class=\"rating\">PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE</td><td valign=\"top\" bgcolor=\"#332D1B\"><strong><a
+        href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5127&hFilmTitle=Dawn+Of+The+Planet+Of+The+Apes&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE&hShowTimeStr=6:45PM&hShowTimeInt=1845&hShowDate=03-08-2014\"
+        class=\"showtimes\">6:45PM</a>&nbsp;&nbsp; <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5127&hFilmTitle=Dawn+Of+The+Planet+Of+The+Apes&hFilmSubtitle=Chinese&hCensorRatingCode=PG13
+        SOME VIOLENCE AND BRIEF COARSE LANGUAGE&hShowTimeStr=9:25PM&hShowTimeInt=2125&hShowDate=03-08-2014\"
+        class=\"showtimes\">9:25PM</a>&nbsp;&nbsp; </strong></td></tr><tr><td valign=\"top\"
+        width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_3223.jsp\"
+        class=\"showtimes\">The White Haired Witch Of Lunar Kingdom*</a><br /><span
+        class=\"small\">(Sub: English, Chinese)</span></td><td valign=\"top\" width=\"100\"
+        valign=\"top\" bgcolor=\"#332D1B\" class=\"rating\">PG13 SOME VIOLENCE</td><td
+        valign=\"top\" bgcolor=\"#332D1B\"><strong><a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=3223&hFilmTitle=The+White+Haired+Witch+Of+Lunar+Kingdom*&hFilmSubtitle=English,
+        Chinese&hCensorRatingCode=PG13 SOME VIOLENCE&hShowTimeStr=6:00PM&hShowTimeInt=1800&hShowDate=03-08-2014\"
+        class=\"showtimes\">6:00PM</a>&nbsp;&nbsp; <a href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=3223&hFilmTitle=The+White+Haired+Witch+Of+Lunar+Kingdom*&hFilmSubtitle=English,
+        Chinese&hCensorRatingCode=PG13 SOME VIOLENCE&hShowTimeStr=8:15PM&hShowTimeInt=2015&hShowDate=03-08-2014\"
+        class=\"showtimes\">8:15PM</a>&nbsp;&nbsp; </strong></td></tr><tr><td valign=\"top\"
+        width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_3222.jsp\"
+        class=\"showtimes\">Hong Hoon*</a><br /><span class=\"small\">(Sub: English,
+        Chinese)</span></td><td valign=\"top\" width=\"100\" valign=\"top\" bgcolor=\"#332D1B\"
+        class=\"rating\">NC16 SOME DISTURBING SCENES</td><td valign=\"top\" bgcolor=\"#332D1B\"><strong><a
+        href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=3222&hFilmTitle=Hong+Hoon*&hFilmSubtitle=English, Chinese&hCensorRatingCode=NC16
+        SOME DISTURBING SCENES&hShowTimeStr=7:05PM&hShowTimeInt=1905&hShowDate=03-08-2014\"
+        class=\"showtimes\">7:05PM</a>&nbsp;&nbsp; </strong></td></tr><tr><td valign=\"top\"
+        width=\"204\" valign=\"top\" bgcolor=\"#332D1B\"><a href=\"/moviedetails/gv_moviedetails_5124.jsp\"
+        class=\"showtimes\">How To Train Your Dragon 2</a><br /><span class=\"small\">(Sub:
+        Chinese)</span></td><td valign=\"top\" width=\"100\" valign=\"top\" bgcolor=\"#332D1B\"
+        class=\"rating\">PG</td><td valign=\"top\" bgcolor=\"#332D1B\"><strong><a
+        href=\"/servlet/BkSeatingPlanServlet?gvAction=getSeatingPlan&hLocationCode=03&hLocationName=GV
+        Tiong Bahru&hFilmCode=5124&hFilmTitle=How+To+Train+Your+Dragon+2&hFilmSubtitle=Chinese&hCensorRatingCode=PG&hShowTimeStr=4:55PM&hShowTimeInt=1655&hShowDate=03-08-2014\"
+        class=\"showtimes\">4:55PM</a>&nbsp;&nbsp; </strong></td></tr></table>"
+    http_version: 
+  recorded_at: Sun, 03 Aug 2014 07:41:03 GMT
+recorded_with: VCR 2.9.2
