@@ -11,13 +11,20 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140810095043) do
+ActiveRecord::Schema.define(version: 20140813121610) do
 
   create_table "cinemas", force: true do |t|
     t.string   "name"
     t.string   "group"
     t.string   "cinema_code"
     t.boolean  "active"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "movie_name_lookups", force: true do |t|
+    t.string   "name"
+    t.string   "misspelt"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
