@@ -26,12 +26,26 @@ RSpec.describe Scrapper do
       expect{ subject.fetch_movie(movie_name, rating) }.to change { Movie.count }.by(1)
     end
 
-    it 'returns exisitng movie' do
+    it 'returns existing movie' do
       subject.fetch_movie(movie_name, rating)
       expect{ subject.fetch_movie(movie_name, rating) }.to_not change { Movie.count }
 
       movie = subject.fetch_movie(movie_name, rating)
       expect(movie.name).to eq(movie_name)
+    end
+
+    context 'misspelt name' do
+      let(:wrong_movie_name) { 'The Guardians of the Galaxy' }
+      let(:correct_movie_name) { 'Guardians of the Galaxy' }
+
+      before do
+        MovieNameLookup.create(name: correct_movie_name, misspelt: wrong_movie_name)
+      end
+
+      it 'returns correct movie name' do
+        movie = subject.fetch_movie(wrong_movie_name, rating)
+        expect(movie.name).to eq(correct_movie_name)
+      end
     end
   end
 

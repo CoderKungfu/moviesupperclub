@@ -7,6 +7,7 @@ class Scrapper
   end
 
   def fetch_movie(movie_name, rating)
+    movie_name = MovieNameLookup.check_name(movie_name)
     Movie.where(name: movie_name).first_or_create do |movie|
       movie.rating = rating
     end
